@@ -1,0 +1,41 @@
+{
+    "name": "vue-values-repository",
+    "version": "1.0.0",
+    "description": "Mantiene ordenado los recursos, valores constantes, y multi lenguaje en vue js.",
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "repository": "node  ./lib/repocreate.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/omar-vasquez/vue-values-repository.git"
+    },
+    "keywords": [
+        "vue",
+        "lang",
+        "values",
+        "strings",
+        "multi-lang",
+        "resources",
+        "repository",
+        "languajes.",
+        "idioms",
+        "vuejs",
+        "vue - js",
+        "plugin"
+    ],
+    "directories": {
+        "example": "example",
+        "test": "test"
+    },
+    "author": "Omar Vasquez <om.ferito@gmail.com> (https://omar-vasquez.github.io)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/omar-vasquez/vue-values-repository/issues"
+    },
+    "homepage": "https://github.com/omar-vasquez/vue-values-repository#readme",
+    "devDependencies": {
+        "fs-extra": "^7.0.0"
+    }
+}
