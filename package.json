@@ -5,7 +5,7 @@
     "main": "./lib/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "repository": "node  ./lib/repocreate.js"
+        "repo-create": "node  ./lib/repocreate.js"
     },
     "repository": {
         "type": "git",
@@ -27,6 +27,7 @@
     ],
     "directories": {
         "example": "example",
+        "lib": "lib",
         "test": "test"
     },
     "author": "Omar Vasquez <om.ferito@gmail.com> (https://omar-vasquez.github.io)",
@@ -37,5 +38,9 @@
     "homepage": "https://github.com/omar-vasquez/vue-values-repository#readme",
     "devDependencies": {
         "fs-extra": "^7.0.0"
+    },
+    "dependencies": {},
+    "bin": {
+        "repo-create": "node  ./lib/repocreate.js"
     }
 }
